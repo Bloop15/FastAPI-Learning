@@ -26,10 +26,10 @@ http://127.0.0.1:8000/docs
 
 ## Purpose
 
--Practice FastAPI fundamentals
--Learn backend concepts with python
--Organized topic-wise for easy reference
--Useful for future FastAPI development
+- Practice FastAPI fundamentals
+- Learn backend concepts with python
+- Organized topic-wise for easy reference
+- Useful for future FastAPI development
 
 
 ---
