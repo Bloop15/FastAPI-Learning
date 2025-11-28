@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Result Page</title>
+    </head>
+    <body>
+        <!-- Loop through the range passed from FastAPI -->
+        {% for i in loop_freq %}
+        <h2>Hi {{ username }} {{i}}, welcome to FastAPI with HTML!</h2>
+        <!-- Go back to input form -->
+        <a href="/">Go Back</a>
+        {% endfor %}
+        </body>
+</html> 

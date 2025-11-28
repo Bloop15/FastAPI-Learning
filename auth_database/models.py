@@ -1,0 +1,15 @@
+# Define database tables using SQLAlchemy
+# Related file: app.py uses this table for authentication
+
+from sqlalchemy import  Table, Column, Integer, String
+from db import metadata
+
+
+# 'users' table definition
+users= Table(
+    "users",
+    metadata,
+    Column("id", Integer, primary_key=True),
+    Column("username", String(50), unique=True, nullable=False, index=True),
+    Column("password", String)
+)

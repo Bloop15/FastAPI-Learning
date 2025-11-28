@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Upload Image</title>
+    </head>
+    <body>
+        <h2>Upload an Image</h2>
+        <!-- Form sends image to /upload via POST, using multipart/form-data -->
+        <form action="/upload" enctype="multipart/form-data" method="post">
+            <input name="file" type="file" accept="image/*" required>
+            <button type="submit">Upload</button>
+        </form>
+    </body>
+</html>

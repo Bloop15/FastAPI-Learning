@@ -1,0 +1,17 @@
+# Python cache
+__pycache__/
+
+# Database files
+*.db
+
+# Environment variables (contains secrets)
+.env
+
+# Uploaded image folders anywhere in project
+**/uploads/
+
+# Virtual environment
+venv/
+
+# VS Code settings
+.vscode/

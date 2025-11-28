@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Upload Result</title>
+    </head>
+    <body>
+        <h2>Image Uploaded Successfully!</h2>
+        <!-- Display uploaded file info -->
+        <p><strong>Filename:</strong> {{ file_info.filename}}</p>
+        <p><strong>Content-Type:</strong> {{ file_info.content_type }}</p>
+
+        <h3>Preview:</h3>
+        <!-- Show uploaded image -->
+
+        <img src="{{ file_info.image_url }}" alt="Uploaded Image" width="300px" />
+
+        <br><br>
+        <a href="/">Upload Another</a>
+    </body>
+</html>
